@@ -3,7 +3,7 @@ import { Product } from "./Product";
 
 //Dependency Inversion Principle (DIP) :
 //La classe Cart dépend de l'abstraction Storable au lieu de dépendre directement 
-// d'une implémentation concrète comme InMemoryStorage.
+// d'une implémentation concrète comme InMemoryStorage. 
 export class Cart {
     constructor(private storage: Storable<Product>) { }
 
